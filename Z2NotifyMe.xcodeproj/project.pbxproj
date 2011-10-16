@@ -185,8 +185,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Z2NotifyMe_Prefix.pch;
 				INFOPLIST_FILE = "Z2NotifyMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = Z2NotifyMe;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -199,8 +201,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Z2NotifyMe_Prefix.pch;
 				INFOPLIST_FILE = "Z2NotifyMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = Z2NotifyMe;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -208,11 +212,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Damon Danieli (BRQ8AW5PJG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Damon Danieli (BRQ8AW5PJG)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1CBD7F22-39FE-4F9A-A24C-9E7C42602AAC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1CBD7F22-39FE-4F9A-A24C-9E7C42602AAC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -221,11 +228,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Damon Danieli (BRQ8AW5PJG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1CBD7F22-39FE-4F9A-A24C-9E7C42602AAC";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
